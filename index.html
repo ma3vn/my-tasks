@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامه کار های من</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="main" class="card">
+        <h4 class="bg-info text-white p-3 rounded">کار های من</h4>
+	<h6 class="bg-primary text-white p-1 rounded">توسط مسعود کاظمی اقدم</h6>
+        <div class="card-content card-body">
+            <form id="task-form">
+                <div class="input-field">
+                    <input type="text" name="task" id="task" placeholder="کار جدید"/>
+                </div>
+                <div class="box_save">
+                    <input type="submit" class="btn btn-success" id="save" value="ثبت"/>
+                </div>
+            </form>
+        </div>
+        
+        <div class="card-action card-footer">
+            <div class="input-filed" id="inpt">
+                <input type="text" name="filter" id="filter" placeholder="جستجو"/>
+            </div>
+            <div>
+                <ul class="collection p-0">
+
+                </ul>
+            </div>
+            <a href="" class="clear-task btn btn-danger">حذف کار ها</a>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
